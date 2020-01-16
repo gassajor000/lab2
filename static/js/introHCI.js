@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 function initializePage() {
     $('#testjs').click(function(e) {
-            $('.jumbotron h1').text("Javascript is connected");
+            $('h1.jumbotron').text("Javascript is connected");
             });
 }
 
